@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="agatepie.belajarpuasaramadhan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ikon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".pengertianActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PerintahActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SyaratActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".BolehActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".RukunActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SunnahActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".RusakActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HikmahActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".batalActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videohikmahActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videorusakActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SyaratsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".doabukaActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TestActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Benar_satuActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Salah_satuActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Test_duaActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Benar_duaActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Salah_duaActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Test_tigaActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Test_empatActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Test_limaActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Benar_tigaActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Benar_empatActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Benar_limaActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Salah_tigaActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Salah_empatActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Salah_limaActivity"
+            android:screenOrientation="landscape">
+        </activity>
+    </application>
+
+</manifest>
